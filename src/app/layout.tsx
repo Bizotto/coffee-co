@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -16,7 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`max-w-7xl mx-auto bg-stone-300 antialiased leading-relaxed space-y-12 ${inter.className}`}
+      >
+        <Header />
+        <div className="bg-stone-800/30 h-[0.5px]" />
+        {children}
+      </body>
     </html>
   );
 }
