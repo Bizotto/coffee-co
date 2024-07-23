@@ -11,7 +11,11 @@ export default function Home() {
       <div className="flex flex-col items-center">
         <div className="grid grid-cols-3 gap-10">
           {images.map((image, index) => (
-            <Link key={image.url} href={image.url}>
+            <Link
+              className="hover:-translate-y-1 hover:scale-105 transition-all duration-300"
+              key={image.url}
+              href={image.url}
+            >
               <Image
                 key={index}
                 className="shadow-lg shadow-black rounded-lg"

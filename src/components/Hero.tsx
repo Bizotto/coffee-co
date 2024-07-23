@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Input from "./Input";
 
 export default function Hero() {
   return (
@@ -13,6 +14,7 @@ export default function Hero() {
         <p className="text-2xl font-bold">
           Your place to learn, share & innovate about coffee!
         </p>
+        <Input placeholder="Name" className="" type="text" />
       </div>
       <Image
         className="rounded-xl shadow-lg shadow-black"
