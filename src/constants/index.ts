@@ -1,29 +1,29 @@
 export const navItems = [
   {
-    name: "About",
+    name: "Sobre",
     url: "/about",
   },
   {
-    name: "Community",
+    name: "Comunidade",
     url: "/community",
   },
 ];
 
 export const images = [
   {
-    name: "Community",
+    name: "Comunidade",
     url: "/community",
     alt: "Image for Coffee Community",
     src: "/assets/CoffeeCommunity.jpeg",
   },
   {
-    name: "How To",
+    name: "Como Fazer",
     url: "/how-to",
     alt: "Image for Coffee How To",
     src: "/assets/CoffeeHowTo.jpeg",
   },
   {
-    name: "Where To Buy",
+    name: "Onde comprar",
     url: "/where-to-buy",
     alt: "Image for Coffee Where To Buy",
     src: "/assets/CoffeeWhereToBuy.jpeg",

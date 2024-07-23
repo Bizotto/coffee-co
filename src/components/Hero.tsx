@@ -18,9 +18,9 @@ export default function Hero() {
         </div>
         <form className="gap-6 max-w-xs flex flex-col ">
           <div className="flex flex-col">
-            <p className="font-bold">Name</p>
+            <p className="font-bold">Nome</p>
             <Input
-              placeholder="Name"
+              placeholder="Nome"
               className="focus:outline-none border-stone-500/50 border"
               type="text"
             />
@@ -29,7 +29,7 @@ export default function Hero() {
             <p className="font-bold">E-mail</p>
             <Input
               className="focus:outline-none border-stone-500/50 border"
-              placeholder="E-Mail"
+              placeholder="E-mail"
               type="text"
             />
           </div>
@@ -37,7 +37,7 @@ export default function Hero() {
             className="rounded-full border border-stone-500/50 p-2 hover:bg-stone-600/20 transition-all duration-300"
             type="submit"
           >
-            Enroll
+            Cadastrar
           </button>
         </form>
       </div>

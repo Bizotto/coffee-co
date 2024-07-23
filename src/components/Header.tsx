@@ -15,7 +15,7 @@ export default function Header() {
           </Link>
         ))}
         <Input
-          placeholder="Search"
+          placeholder="Procurar"
           className="focus:outline-none border-stone-500/50 border"
           type="text"
         />
