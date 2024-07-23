@@ -14,7 +14,11 @@ export default function Header() {
             {item.name}
           </Link>
         ))}
-        <Input placeholder="Search" type="text" style="" />
+        <Input
+          placeholder="Search"
+          className="focus:outline-none border-stone-500/50 border"
+          type="text"
+        />
       </nav>
     </header>
   );

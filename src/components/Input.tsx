@@ -5,10 +5,15 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   placeholder: string;
 }
 
-export default function Input({ placeholder, type, ...rest }: InputProps) {
+export default function Input({
+  placeholder,
+  type,
+  className,
+  ...rest
+}: InputProps) {
   return (
     <input
-      className="rounded-full bg-stone-200 px-2"
+      className={`rounded-full bg-stone-200 px-2 ${className}`}
       type={type}
       placeholder={placeholder}
       {...rest}
